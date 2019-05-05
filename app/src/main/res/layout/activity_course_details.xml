@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseDetails"
+    android:background="@drawable/back_image">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Code:"
+        android:textSize="18dp"
+        android:paddingTop="75dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+
+        />
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/et1"
+        android:layout_toRightOf="@+id/t1"
+        android:layout_marginLeft="36dp"
+        android:paddingTop="78dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:textSize="15dp" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/t2"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Course Name:"
+        android:layout_below="@+id/t1"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        />
+    <TextView
+
+        android:id="@+id/et2"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/t2"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et1"
+        android:ems="12"
+        android:textSize="15dp"
+        android:textColor="#fff"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credit Hour:"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_below="@+id/t2"
+        android:layout_marginTop="18dp"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:id="@+id/et3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="42dp"
+        android:layout_below="@+id/et2"
+        android:layout_toRightOf="@+id/t3"
+        android:textColor="#fff"
+        android:layout_marginTop="22dp"
+        />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teacher Name:"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_below="@+id/t3"
+        android:layout_marginTop="18dp"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/et4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="22dp"
+        android:layout_below="@+id/et3"
+        android:layout_toRightOf="@+id/t4"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>
